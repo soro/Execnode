@@ -1,0 +1,27 @@
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+#menu input {
+    width: 160px;
+    margin: 20px;
+}
+
+#menu #login {
+    width: 200px;
+    margin: 20px 0; 
+    text-align: center;
+}
+
+#menu #submission {
+    width: 200px;
+    text-align: center;
+}
+
+#joblist {
+    float: left;
+    margin-left: 200px;
+}

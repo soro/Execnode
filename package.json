@@ -1,0 +1,32 @@
+{
+    "name": "execnode",
+    "version": "0.1.0",
+    "description": "A remote subprocess execution environment",
+    "author": { 
+        "name": "Soeren Roerden",
+        "email": "soeren@roerden.de"
+    },
+    "scripts": {
+        "test": "make tests",
+        "prepublish": "make doc"
+    },
+    "bin": {
+        "xnhub": "./bin/xnhub",
+        "xnslave": "./bin/xnslave",
+        "xn": "./bin/xn"
+    },
+    "main": "./lib/execnode",
+    "engines": {
+        "node": ">=0.4.5"
+    },
+    "dependencies": {
+        "websocket-client": ">=1.0.0",
+        "websocket-server": ">=1.4.01",
+        "express": ">=1.0.2",
+        "opts": ">=1.2.1"
+    },
+    "devDependencies": {
+        "nodeunit": ">=0.5.0",
+        "sinon-nodeunit": ">=0.1.0"
+    }
+}
