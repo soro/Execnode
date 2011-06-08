@@ -4,7 +4,7 @@ Execnode
 Execnode is a remote subprocess execution environment. So far it consists of a 
 command line tool (<code>xn</code>) that allows one to submit jobs to the 
 central server, the hub (<code>xnhub</code>), fetch the results of these jobs 
-once they have been executed by the slaves (<code>xnslave</code>>),
+once they have been executed by the slaves (<code>xnslave</code>),
 which pull jobs from the hub, and allows one to attach to the stdin and stdout
 of the subprocesses running on the slaves, which is what distinguishes execnode
 from other such environments. This even makes it possible to remotely start
